@@ -80,7 +80,7 @@ public class pp2 {
         int v = 7;
         ArrayList<Edge> graph[] = new ArrayList[v];
         createGraph(graph);
-        // bfs(graph);
+        // dfs(graph);
         dfs(graph, 0, new boolean[v]);
 
     }
