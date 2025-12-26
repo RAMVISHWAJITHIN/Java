@@ -1,6 +1,6 @@
 /*
 
-Inheritance is when properties and methods of baase class are passed 
+Inheritance is when properties and methods of base class are passed 
 on to a derived class.
 -- main purpose of inheritance is to increase code reusability
 types of inheritance

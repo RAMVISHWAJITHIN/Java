@@ -1,7 +1,10 @@
 /*
 
-Abstraction:hiding all the unnecessary details an showing 
+Abstraction:hiding all the unnecessary details, an showing 
 only the important parts of the user.
+--- abstraction can be implemented in 2 ways:
+   1.abstract keyword
+   2.interfaces
 
 -- an abstract class is a class that cannot be used to create objects directly 
 and is meant to be inherited by other classes.

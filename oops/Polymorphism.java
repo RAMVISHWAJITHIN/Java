@@ -2,8 +2,11 @@
 /*
 polymorphism in java means "many forms". it allows one method to take many forms and provides 
 flexibility in how methods behave depending on the object that calls them
+
 1.complie time polymorphism: also known as static polymorphism (or) early binding is the type of polymorphism
 where binding of the call to its code , is done at the complie time.
+
+
 2.Run time polymorphism(dynamic): also known as dynamic polymorphism (or) late binding.
 runtime polymorphism is the type of polymorphism where the actual implementation
 of the function is determined during the runtime (or) execution
