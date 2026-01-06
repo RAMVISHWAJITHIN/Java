@@ -3,10 +3,43 @@ import java.util.Scanner;
 public class pp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            int product = i * i;
-            System.out.println("perfect:" + product);
+        int sq = sc.nextInt();
+        int n = sq * sq;
+        System.out.println("the square of number:" + n);
+        int count = String.valueOf(n).length();
+        System.out.println("digits count:" + count);
+        if (count >= 4) {
+            if (count % 2 == 0) {
+                int half = count / 2;
+                int divisior = (int) Math.pow(10, half);
+                int firstHalf = n / divisior;
+                int secondHalf = n % divisior;
+                int sum = firstHalf + secondHalf;
+                System.out.println("the sum :" + sum);
+
+                int rev = 0;
+                int temp = n;
+                while (n > 0) {
+                    int ld = n % 10;
+                    rev = rev * 10 + ld;
+                    n = n / 10;
+                }
+                int firstHalf1 = temp / divisior;
+                int secondHalf2 = temp % divisior;
+                int sum1 = firstHalf1 + secondHalf2;
+                System.out.println("the sum1 :" + sum1);
+                if (sum1 == sum) {
+                    System.out.println("sums are equal");
+                } else {
+                    System.out.println("invalid number");
+                }
+
+            } else {
+                System.out.println("odd numbers");
+            }
+
+        } else {
+            System.out.println("Invalid number");
         }
 
     }
