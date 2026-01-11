@@ -47,6 +47,7 @@ public class pp {
         // : ((b > c ? (b > d ? b : d) : (c > d ? c : d))));
 
         char ch = 'A';
+        System.out.println(ch);
         int n = 1;
 
         while (n <= 26) {
