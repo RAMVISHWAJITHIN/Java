@@ -12,17 +12,17 @@ public class FibonaciSeries {
         System.out.println();
     }
 
-    public static int fibRec(int n) {
-        if (n == 0 || n == 1) {
-            return n;
-        }
+    // public static int fibRec(int n) {
+    // if (n == 0 || n == 1) {
+    // return n;
+    // }
 
-        return fibRec(n - 1) + fibRec(n - 2);
-    }
+    // return fibRec(n - 1) + fibRec(n - 2);
+    // }
 
     public static void main(String[] args) {
 
-        // fib(5);
-        System.out.println(fibRec(10));
+        fib(10);
+        // System.out.println(fibRec(10));
     }
 }

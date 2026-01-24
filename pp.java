@@ -58,4 +58,12 @@ public class pp {
 
         }
     }
+
+    // syso--ctrl+space
+    // test.java--click on it --for full screen and vice vers
+    // run button
+    // for loop ctrl+space
+    // mouse hover to fix erros
+    // white symbol--
+    // main ctrl+space
 }
